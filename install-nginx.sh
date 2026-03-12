@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+
+echo  "============== INSTALLING NGINX =========="
 sudo apt-get update -y
 
 sudo apt-get upgrade -y
