@@ -1,9 +1,98 @@
-<h1> Wielcome to World of walkes </h1>
-<h2> ONLY WITH WALKER ID</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Walkers</title>
+    <style>
+        :root {
+            --primary: #00d2ff;
+            --accent: #92fe9d;
+            --bg: #0f172a;
+            --text: #f8fafc;
+        }
 
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: var(--text);
+            font-family: 'Inter', -apple-system, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
 
-This is progress and added a new feature to the app
-This is progress in dev branch
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+        }
 
-  adding collest feature
-  adding cool feature
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: var(--accent);
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: rgba(0, 210, 255, 0.1);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: 99px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(0, 210, 255, 0.3);
+        }
+
+        p {
+            line-height: 1.6;
+            color: #94a3b8;
+            margin: 10px 0;
+        }
+
+        .feature-tag {
+            color: #fff;
+            font-style: italic;
+            border-left: 3px solid var(--accent);
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="status-badge">DEV BRANCH ACTIVE</div>
+        <h1>World of Walkers</h1>
+        <h2>Exclusive Walker ID Required</h2>
+        
+        <p>We are currently in progress, building the future of the app.</p>
+        
+        <div class="feature-tag">
+            🚀 New feature deployment in progress...
+        </div>
+    </div>
+
+</body>
+</html>
+
